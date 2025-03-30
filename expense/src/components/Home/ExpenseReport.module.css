@@ -1,0 +1,63 @@
+
+.main{
+  background: #2a2a2e;
+  border-radius: 10px;
+}
+.main-h2{
+  padding: 7px;
+  color: white;
+  margin-left: 10px;
+  font-size: 2rem;
+}
+.main-h6{
+  margin-left: 16px;
+  color: grey
+}
+  .expense-report {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background-color:  #181a1b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 23%;
+    text-align: center;
+    margin: 12px;
+  }
+  
+  .card-p {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .card-span {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* .card small {
+    font-size: 12px;
+    color: #fca5a5;
+  } */
+  
+  .total-credit-small {
+    color: #4ade80;
+    font-size: 12px;
+  }
+  
+  .total-expense-small {
+    color: #f87171;
+  }
+  
+  .todays-credit-small {
+    color: #93c5fd;
+  }
+  
+  .todays-expense-small {
+    color: #f87171;
+  }
+  

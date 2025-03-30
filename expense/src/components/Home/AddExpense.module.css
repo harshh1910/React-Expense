@@ -1,0 +1,144 @@
+/* body {
+    background-color: #181a1b;
+    color: #ffffff;
+} */
+
+.AddExpense-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    color: #ffffff;
+    background-color: #181a1b;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 52px 184px 0 185px;
+
+}
+.Add-expense{
+    height: 486px;
+    width: 1114px;
+    background: #1e1e20;
+    padding: 16px;
+    /* position: relative;
+    top: 150px;
+    left: 149px;*/
+}
+.Add-expense-h2{
+    font-size: 2rem;
+}
+.Add-expense-h5{
+    color: grey;
+}
+.stay{
+    background-color: #6151205e;
+    width: 71px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.travel{
+    background-color: #2057615e;
+    width: 71px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #00fff394;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food{
+    background-color: #05212770;
+    width: 71px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #00adffb0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.others{
+    background-color: #70506b57;
+    width: 71px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #af74ce7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+}
+.inp1-input{
+    background: #2a2a2e;
+    color: white;
+    border: 0;
+    outline: 0;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px;
+    height: 30px;
+}
+
+.inp2-input{
+    background: #2a2a2e;
+    color: white;
+    border: 0;
+    outline: 0;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px;
+    height: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.btn1{
+    padding: 10px 20px;
+    background-color: #61a399;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 86px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+
+}
+.btn2{
+    padding: 10px 20px;
+    background-color: #61a399;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 86px;
+    color: black;
+    font-weight: bold;
+
+}

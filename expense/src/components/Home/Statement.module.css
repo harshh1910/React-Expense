@@ -1,0 +1,95 @@
+.statement {
+    background-color: #2a2a2e;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 400px; /* Set a fixed height */
+    overflow-y: auto; 
+    scrollbar-width: none;
+  }
+  
+  .statement-h3 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: white;
+  }
+  
+  .add-expense-btn {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .thead {
+    /* background-color: #333; */
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .th, .td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+.tr {
+    border-bottom: 1px solid #444;
+    color:#ffffff;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  .house-icon{
+    background-color: #6151205e;
+    width: 71px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+  }
+  
+  .cab-icon {
+    background-color: #2057615e;
+    width: 71px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #00fff394;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .breakfast-icon {
+    background-color: #05212770;
+    width: 71px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #00adffb0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .wifi-icon {
+    background-color: #70506b57;
+    width: 71px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #af74ce7d;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
